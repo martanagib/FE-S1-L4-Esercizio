@@ -1,77 +1,78 @@
 /* IMPOSTAZIONI GENERALI */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
- 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 
 body {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background-image:url("../img/sfondo.png");
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../img/sfondo.png");
+}
 
 /* HEADER */
 #intestazione {
-    margin:10px;
-    background-color:rgb(1, 137, 170);
-    text-align: center;
-    }
+  margin: 10px;
+  background-color: rgb(1, 137, 170);
+  text-align: center;
+}
 
 #intestazione img {
-    width:10%
+  width: 10%;
 }
 
-#claim {color:white;}
-
-#primaLista {color:white;}
+#claim {
+  color: white;
+}
 
 #primaLista {
-    list-style-type: none;
-    margin-block-start: 0px;
-    padding-inline-start:0px;
-    text-align: center;
-    
+  color: white;
 }
 
-#primaLista li::before{
-    content:'※';
-
+#primaLista {
+  list-style-type: none;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+  text-align: center;
 }
-      
+
+#primaLista li::before {
+  content: "※";
+}
 
 /* MAIN */
 #corpoCentrale {
-    margin:10px;
-    background-color: white;
+  margin: 10px;
+  background-color: white;
 }
-
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-#icone{color:rgb(178, 174, 174);}
-
-b{color:rgb(170, 61, 129);}
-
-button {
-    background-color: rgb(197, 197, 197);
+#icone {
+  color: rgb(178, 174, 174);
 }
 
+b {
+  color: rgb(170, 61, 129);
+}
+
+button {
+  background-color: rgb(197, 197, 197);
+}
 
 /* TABELLE */
 
-#tabella {border-collapse: collapse;
-          width:20%;
-          text-align:center;
-          padding-bottom: 1px;
-          border-bottom: rgb(63, 107, 202) ;
-          margin: 3px;
-        }
+#tabella {
+  border-collapse: collapse;
+  width: 20%;
+  text-align: center;
+  padding-bottom: 1px;
+  border-bottom: rgb(63, 107, 202);
+  margin: 3px;
+}
 
- #tabella tr:nth-child(1){
-    background-color: rgb(63, 107, 202);
- }
-
-
+#tabella tr:nth-child(1) {
+  background-color: rgb(63, 107, 202);
+}
 
 /* FORM */
 
